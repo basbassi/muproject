@@ -8,6 +8,12 @@ class Dalel extends StatelessWidget {
   const Dalel({super.key});
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return MaterialApp(
+      home: Scaffold(
+        body: Container(
+          child: Image.asset("assets/images/onBoarding.jpg"),
+        ),
+      ),
+    );
   }
 }
