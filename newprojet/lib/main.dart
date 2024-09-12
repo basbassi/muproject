@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:newprojet/core/utils/app_assets.dart';
 
 void main() {
   runApp(const Dalel());
@@ -11,7 +12,7 @@ class Dalel extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: Container(
-          child: Image.asset("assets/images/onBoarding.jpg"),
+          child: Image.asset(Assets.imagesOnBoarding3),
         ),
       ),
     );
