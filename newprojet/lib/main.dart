@@ -12,7 +12,7 @@ class Dalel extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: Container(
-          child: Image.asset(Assets.imagesOnBoarding3),
+          child: Image.asset(Assets.imagesOnBoarding2),
         ),
       ),
     );
